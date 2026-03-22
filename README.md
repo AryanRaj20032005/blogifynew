@@ -6,12 +6,12 @@
 
 ## 🌟 Features
 
-* 🏠 Home page with all blogs
-* ✍️ Create new blog posts
-* 🧾 Add title, description & cover image
+* 🏠 Home page displaying all blogs
+* ✍️ Create and publish new blog posts
+* 🧾 Add title, description, and cover image
 * 👤 User authentication (Login / Signup UI)
-* 📚 View personal blogs (My Blog)
-* 🗑️ Delete / manage blogs (if implemented)
+* 📚 View personal blogs (My Blogs)
+* 🗑️ Delete and manage blogs (if implemented)
 * ⚡ Fast and responsive UI
 
 ---
@@ -23,7 +23,7 @@
 * React.js
 * Vite
 * Axios
-* CSS (Custom styling)
+* CSS (Custom Styling)
 
 ### ⚙️ Backend
 
@@ -39,10 +39,10 @@
 ## 📂 Project Structure
 
 ```
-blogify/
+blogifynew/
 │── client/        # Frontend (React App)
 │── server/        # Backend (Express API)
-│── app.js         # Main backend file
+│── app.js         # Main backend entry point
 │── connection.js  # MongoDB connection
 │── package.json
 ```
@@ -57,7 +57,7 @@ Make sure you have installed:
 
 * Node.js
 * npm
-* MongoDB (local or Atlas)
+* MongoDB (local or MongoDB Atlas)
 
 ---
 
@@ -67,8 +67,8 @@ Make sure you have installed:
 # Clone repository
 git clone https://github.com/AryanRaj20032005/blogifynew.git
 
-# Navigate to project
-cd blogify
+# Navigate to project directory
+cd blogifynew
 
 # Install backend dependencies
 npm install
@@ -96,7 +96,7 @@ npm run dev
 
 ## 🌍 Environment Variables
 
-Create a `.env` file in root:
+Create a `.env` file in the root directory:
 
 ```env
 MONGO_URI=mongodb://127.0.0.1:27017/blogify
@@ -107,18 +107,12 @@ PORT=3000
 
 ## 🔗 API Endpoints
 
-| Method | Endpoint   | Description     |
-| ------ | ---------- | --------------- |
-| GET    | /blogs     | Get all blogs   |
-| POST   | /blogs     | Create blog     |
-| GET    | /blogs/:id | Get single blog |
-| DELETE | /blogs/:id | Delete blog     |
-
----
-
-## 📸 Screenshots
-
-*Add your screenshots here*
+| Method | Endpoint   | Description       |
+| ------ | ---------- | ----------------- |
+| GET    | /blogs     | Get all blogs     |
+| POST   | /blogs     | Create a new blog |
+| GET    | /blogs/:id | Get a single blog |
+| DELETE | /blogs/:id | Delete a blog     |
 
 ---
 
