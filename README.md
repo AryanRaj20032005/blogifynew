@@ -65,7 +65,7 @@ Make sure you have installed:
 
 ```bash
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/blogify.git
+git clone https://github.com/AryanRaj20032005/blogifynew.git
 
 # Navigate to project
 cd blogify
